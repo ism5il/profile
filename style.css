@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f5f7;
+    color: #212529;
+}
+
+/* Header */
+header {
+    background-color: #0d1b2a;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
+
+/* Social buttons */
+.social-links .btn {
+    transition: all 0.3s ease;
+    color: #fff;
+    border-color: #fff;
+}
+
+.social-links .btn:hover {
+    background-color: #1b2a47;
+    color: #fff;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Card headers */
+.card-header {
+    border-radius: 12px 12px 0 0;
+}
+
+/* Section titles */
+h2 {
+    margin: 0;
+}
+
+/* Skills */
+.skill-name {
+    font-weight: 500;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    font-size: 0.85rem;
+    line-height: 20px;
+}
+
+/* Projects */
+.projects-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Links */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
